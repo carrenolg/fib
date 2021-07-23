@@ -6,8 +6,8 @@ import (
 )
 
 func TestFib(t *testing.T) {
-	if resultado := Fib(5); resultado != 5 {
-		t.Errorf("Fib(5) = %d ; esperamos 5", resultado)
+	if resultado := Fib(8); resultado != 21 {
+		t.Errorf("Fib(8) = %d ; esperamos 21", resultado)
 	}
 }
 

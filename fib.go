@@ -2,8 +2,8 @@
 package fib
 
 // Fib calcula el 5to número de la secuencia fibonacci.
-func Fib() int {
-	return FibCiclo(5)
+func Fib(n int) int {
+	return FibCiclo(n)
 }
 
 // FibCiclo calcula un número de la secuencia fibonacci para la posición n.
